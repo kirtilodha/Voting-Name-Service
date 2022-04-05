@@ -187,11 +187,13 @@ const App = () => {
 		setLoading(false);
 	}
 	const renderNotConnectedContainer = () => {
+		return(
 		<div className="connect-wallet-container">
 			<button onClick={connectWallet} className="cta-button connect-wallet-button">
 				Connect Wallet
 			</button>
 		</div>
+	);
 	};
 	// Add this render function next to your other render functions
 	const renderMints = () => {
