@@ -347,7 +347,7 @@ const App = () => {
 						</div>
 					</header>
 				</div>
-				<img src="https://media.giphy.com/media/L0J7ICm4GNzyvs0ZUx/giphy.gif" alt="Ninja gif" style={{ height: "30%", width: "40%", marginLeft: "380px", marginBottom: "4px" }} />
+				<img src="https://media.giphy.com/media/L0J7ICm4GNzyvs0ZUx/giphy.gif" alt="Ninja gif" style={{  width: "25%", marginLeft: "50px", marginBottom: "4px" }} />
 				{!currentAccount && renderNotConnectedContainer()}
 				{currentAccount && renderInputForm()}
 				{mints && renderMints()}
