@@ -10,7 +10,7 @@ p {
 }
 
 .container {
-  height: 100%;
+  
   background-color: #181818;
   display: flex;
   flex-direction: column;
